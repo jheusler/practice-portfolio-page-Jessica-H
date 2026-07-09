@@ -16,6 +16,8 @@ h1 {
 
 h2 {
   color: #333;
+  font-size: 1.5rem;
+  margin-top: 0;
 }
 
 p {
@@ -23,7 +25,18 @@ p {
   line-height: 1.5;
 }
 
+ul {
+  margin-top: 0;
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
 img {
+  display: block;
+  margin-bottom: 15px;
   width: 150px;
 }
 
@@ -35,40 +48,57 @@ footer {
 #page-header {
   background-color: #333;
   text-align: center;
-  padding: 20px;
+  padding: 16px;
 }
 
 #page-header h1 {
   color: white;
   font-family: "Brother Signature", cursive;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
+  margin: 0;
 }
 
 .tagline {
   color: #f0f0f0;
   font-style: italic;
+  margin: 6px 0 0 0;
 }
 
 .about {
   background-color: white;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 900px;
   padding: 20px;
 }
 
 .skills {
   background-color: white;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 900px;
   padding: 20px;
 }
 
 .interests {
   background-color: white;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 900px;
   padding: 20px;
 }
 
 .contact {
   background-color: white;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 900px;
   padding: 20px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 6px;
+  width: 250px;
+}
+
+button {
+  padding: 6px 12px;
 }
