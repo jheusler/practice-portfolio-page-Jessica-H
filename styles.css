@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Brother Signature";
+  src: url("fonts/Brother Signature.otf") format("opentype");
+}
+
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
@@ -35,6 +40,8 @@ footer {
 
 #page-header h1 {
   color: white;
+  font-family: "Brother Signature", cursive;
+  font-size: 3.5rem;
 }
 
 .tagline {
