@@ -4,24 +4,24 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: #eee9df;
   font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  color: #333;
+  color: #fffaf2;
 }
 
 h2 {
-  color: #333;
+  color: #4d3d32;
   font-size: 1.5rem;
   margin-top: 0;
 }
 
 p {
-  color: #666;
+  color: #5e574f;
   line-height: 1.5;
 }
 
@@ -45,60 +45,59 @@ footer {
   padding: 20px;
 }
 
+footer a {
+  color: #4d3d32;
+}
+
 #page-header {
-  background-color: #333;
+  background-color: #3f493f;
   text-align: center;
   padding: 16px;
 }
 
 #page-header h1 {
-  color: white;
+  color: #fffaf2;
   font-family: "Brother Signature", cursive;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   margin: 0;
 }
 
 .tagline {
-  color: #f0f0f0;
+  color: #fffaf2;
   font-style: italic;
   margin: 6px 0 0 0;
 }
 
-.about {
-  background-color: white;
-  margin: 20px auto;
-  max-width: 900px;
-  padding: 20px;
-}
-
-.skills {
-  background-color: white;
-  margin: 20px auto;
-  max-width: 900px;
-  padding: 20px;
-}
-
-.interests {
-  background-color: white;
-  margin: 20px auto;
-  max-width: 900px;
-  padding: 20px;
-}
-
+.about,
+.skills,
+.interests,
 .contact {
-  background-color: white;
+  background-color: #fffaf2;
   margin: 20px auto;
   max-width: 900px;
   padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
 }
 
 input,
 textarea {
+  display: block;
   margin-bottom: 10px;
   padding: 6px;
   width: 250px;
 }
 
 button {
+  background-color: #9d5c3d;
+  border: none;
+  color: #fffaf2;
   padding: 6px 12px;
+}
+
+button:hover {
+  background-color: #844f35;
 }
